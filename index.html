@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style/index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        <header class="page__header">
+            <ul>
+                <li class="page__li"><a href="#pitch_perso">Pitch Personnel</a></li>
+                <li class="page__li"><a href="#pitch_thema">Pitch Thématique</a></li>
+                <li class="page__li"><a href="#hard_skills">Hard Skills</a></li>
+                <li class="page__li"><a href="#soft_skills">Soft Skills</a></li>
+                <li class="page__li"><a href="#comp">Compétences SAE</a></li>
+            </ul>
+        </header>
+    </div>
+    <div class="page">
+        <div id="content" class="page__content">
+            <span>« Il n'y a pas de vent favorable pour celui qui ne sait pas où il va. »
+
+                — Sénèque</span>
+            <section id="pitch_perso">
+                <h2 class="page__title">Pitch Personnel</h2>
+                <span class="page__text">
+                    Bonjour, je m'appelle Ronan Morales, j’ai 19 ans et je suis actuellement en
+                    deuxième année de BUT Informatique à Castres, spécialisé dans le parcours "Réalisation
+                    d’applications : conception,
+                    développement, validation".
+
+                    Après l'obtention de mon BAC STI2D (spécialité SIN) au Lycée Las Cases avec mention assez bien, j'ai
+                    décidé de m'engager dans la réserve opérationnelle de l'armée de terre parallèlement à mes études
+                    supérieures.
+
+                    Initialement intéressé par la classe préparatoire TSI du lycée Pierre-Paul Riquet (Saint-Orens),
+                    j'ai finalement privilégié le BUT Informatique de Castres afin de me rapprocher du 8e RPIMa.
+                    Ce choix stratégique m'a permis de réaliser ma formation académique et mon engagement militaire.
+
+                    Cette double expérience est un atout car, le BUT développe mes compétences collaboratives (travail
+                    en équipe, communication), tandis que l'armée renforce mon autonomie, mon écoute et ma
+                    rigueur.</span>
+            </section>
+            <section id="pitch_thema">
+                <h2 class="page__title">Pitch Thématique</h2>
+                <span class="page__text">
+                    À l’issue de l’obtention de mon diplôme, je ferai le choix de m’insérer directement dans la vie
+                    active. Mon objectif sera de mettre pleinement mes compétences au service d'une entreprise en tant
+                    que développeur web front-end.
+                    Pour réussir cette transition et me consacrer totalement à mes projets techniques, je quitterai mon
+                    poste d'équipier polyvalent chez Lidl. Si ce contrat en CDI m'aura permis de financer sereinement
+                    mon cursus, je souhaiterai alors m'alléger de cette charge de travail pour concentrer toute mon
+                    énergie sur mon premier emploi dans le numérique.
+                </span>
+            </section>
+            <section id="hard_skills">
+                <h2 class="page__title">Hard Skills</h2>
+                <span class="page__text">
+                    Développement technique et maîtrise des outils informatiques acquis durant ma formation et mes
+                    projets personnels.
+                </span>
+                <div class="page__comp">
+                    <span class="page__comp__content">Java & Python</span>
+                    <span class="page__comp__content">HTML, CSS & JS</span>
+                    <span class="page__comp__content">Node.js & Express</span>
+                    <span class="page__comp__content">PHP & MySQL</span>
+                    <span class="page__comp__content">GitLab & GitHub</span>
+                    <span class="page__comp__content">Figma (UX/UI)</span>
+                </div>
+            </section>
+
+            <section id="soft_skills">
+                <h2 class="page__title">Soft Skills</h2>
+                <span class="page__text">
+                    Qualités humaines et relationnelles développées notamment à travers mon engagement dans l'armée de
+                    terre et mes expériences professionnelles.
+                </span>
+                <div class="page__comp">
+                    <span class="page__comp__content">Leadership</span>
+                    <span class="page__comp__content">Rigoureux</span>
+                    <span class="page__comp__content">Sérieux</span>
+                    <span class="page__comp__content">Autonome</span>
+                    <span class="page__comp__content">Créatif</span>
+                </div>
+            </section>
+            <section id="comp">
+                <h2 class="page__title">Mes compétences</h2>
+
+                <div id="comp_S3.01">
+                    <h3 class="page__title">S3.01 Maps Industry</h3>
+                    <span class="page__text">J'ai choisi de vous présenter la compétence
+                        <span class="page__text__gras">Administrer</span>
+                        , que j'ai pu développer au cours de la
+                        <span class="page__text__gras"> SAE Maps Industry (S3.01)</span>
+                        . L'objectif de cette SAE était de réaliser un client léger (site web) et un
+                        client lourd (application bureau) permettant de planifier des itinéraires touristiques entre
+                        différentes villes.
+                        <br>
+                        Pour ce faire, nous avons installé et configuré deux serveurs sur des machines virtuelles : l'un
+                        dédié à la base de données et l'autre à l'hébergement de l'API et du client léger. Cette
+                        démarche s'inscrit directement dans l'apprentissage critique <span class="page__text__gras">AC
+                            13.03</span>, qui consiste installer et configurer un système d'exploitation et les outils
+                        de développement. Je vais maintenant vous présentez les
+                        critére d'évaluation que j'ai choisi.
+                    </span>
+                    <h4 class="page__title ">CE 3.01 - En sécurisant le système d'information</h4>
+                    <span class="page__text">Pour valider ce critère, nous avons mis en place des solutions robustes
+                        afin de
+                        sécuriser nos serveurs (API et BDD).
+                    </span>
+                    <h4 class="page__title ">API</h4>
+                    <div class="ufw">
+                        <img src="images/ufw.png" alt="ufw_preuve" class="page__img">
+                        <span class="page__text">
+                            Configuration du pare-feu avec UFW : Nous avons d'abord déployé UFW (Uncomplicated
+                            Firewall). Ce pare-feu nous permet de restreindre l'accès au serveur en fermant par défaut
+                            tous les ports inutilisés, limitant ainsi la surface d'attaque. Nous avons spécifiquement
+                            autorisé les connexions SSH (pour l'administration à distance), ainsi que le HTTP et le
+                            HTTPS pour
+                            l'accès aux services web.
+                        </span>
+                    </div>
+                    <div class="fail2ban">
+                        <img src="images/fail2ban.png" alt="fail2ban" class="page__img">
+                        <span class="page__text">
+                            Protection proactive avec Fail2Ban : En complément du pare-feu, nous avons installé
+                            Fail2Ban. Cet outil analyse les logs du serveur en temps réel pour détecter des
+                            comportements suspects, comme des tentatives de connexion répétées par force brute. Dans
+                            notre configuration, nous avons instauré un bannissement automatique de l'adresse IP de
+                            l'attaquant pendant 3600 secondes après 5 tentatives infructueuses.
+                        </span>
+                    </div>
+
+                    <h4 class="page__title ">BDD</h4>
+                    <div class="ufw">
+                        <img src="images/ufw2.png" alt="ufw_preuve" class="page__img">
+                        <span class="page__text">
+                            Configuration du pare-feu avec UFW : Nous avons d'abord déployé UFW (Uncomplicated
+                            Firewall). Ce pare-feu nous permet de restreindre l'accès au serveur en fermant par défaut
+                            tous les ports inutilisés, limitant ainsi la surface d'attaque. Nous avons spécifiquement
+                            autorisé les connexions SSH (pour l'administration à distance), ainsi que le HTTP et le
+                            HTTPS pour
+                            l'accès aux services web. Nous avons restreint les accès au port 5432 uniquement via
+                            l'adresse ip 10.129.19.18 .
+                        </span>
+                    </div>
+                    <h4 class="page__title">CE 3.03 - En appliquant les normes en vigueur et les bonnes pratiques
+                        architecturales et de sécurité </h4>
+                    <h4 class="page__title ">1. Configuration de l'architecture système</h4>
+                    <span class="page__text">
+                        Pour assurer la stabilité des liaisons entre les services, j'ai
+                        configuré des adresses IP fixes (10.129.19.18 et 10.129.19.19) en modifiant le fichier
+                        /etc/network/interfaces.
+                        Sur le serveur API, j'ai mis en place un environnement Node.js avec le
+                        framework Express. Sur le serveur BDD, j'ai installé et configuré PostgreSQL.
+                    </span>
+                    <h4 class="page__title ">API</h4>
+                    <div class="ipStatique">
+                        <img src="images/ipStatique.png" alt="ipStatique_preuve" class="page__img">
+                        <span class="page__text">
+                            La configuration en ip statique est indispensable pour mettre en place des règles de
+                            sécurité restrictives comme
+                            celles que nous avons mis en place avec UFW. Cela nous sera aussi utile du côté de la BDD,
+                            car nous pourrons restreindre l'accès au port 5432 depuis une adresse ip statique.
+                            Nous avons fixer l'ip à 10.129.19.18 .
+                        </span>
+                    </div>
+                    <h4 class="page__title ">BDD</h4>
+                    <div class="ipStatique">
+                        <img src="images/ipStatique2.png" alt="ipStatique_preuve" class="page__img">
+                        <span class="page__text">
+                            La configuration en ip statique est indispensable pour mettre en place des règles de
+                            sécurité restrictives comme
+                            celles que nous avons mis en place avec UFW. Nous avons fixer l'ip à 10.129.19.19 .
+                        </span>
+                    </div>
+                    <h4 class="page__title ">2. Sécurisation et contrôle des accès</h4>
+                    <div class="inverse">
+                        <span class="page__text">
+                            Sur le serveur API, j'ai autorisé uniquement les ports SSH, HTTP et HTTPS.
+                            Sur le serveur BDD, j'ai appliqué une règle stricte n'autorisant que les connexions
+                            entrantes
+                            sur le port 5432 provenant exclusivement de l'IP du serveur API.
+                            J'ai déployé Fail2Ban pour surveiller les journaux d'accès
+                            (auth.log) et bannir automatiquement toute IP après 5 tentatives de connexion infructueuses
+                            pendant une durée de 3600 secondes.
+                            J'ai configuré le serveur OpenSSH en créant des utilisateurs
+                            spécifiques (Ronan, Alexandre, Toma, Télio) rattachés à un groupe dédié pour restreindre les
+                            droits d'administration.
+                        </span>
+                        <img src="images/ssh.png" alt="ssh" class="page__img">
+                    </div>
+                    <h4 class="page__title ">3. Maintenance et validation</h4>
+                    <div class="inverse">
+                        <span class="page__text">J'ai veillé à la stabilité du système en
+                            exécutant systématiquement les commandes apt update et apt upgrade.
+                            Pour valider le bon fonctionnement de l'architecture, j'ai utilisé des
+                            outils comme Telnet pour vérifier l'ouverture des ports entre les serveurs et ifconfig pour
+                            valider la configuration réseau.
+                        </span>
+                        <img src="images/telnet.png" alt="telnet" class="page__img">
+                    </div>
+                    <span class="page__text">Pour conclure, je suis dans la maîtrise de ces compétences, car je suis
+                        capable d'installer un système d'exploitation ainsi que des outils de développement de manière
+                        Autonome.</span>
+                </div>
+
+                <div id="comp_S2.04">
+                    <h3 class="page__title">S2.04 Gamers</h3>
+                    <span class="page__text">
+                        Dans le cadre de notre projet de <span class="page__text__gras">SAE S2.04</span>, mon binôme et
+                        moi avons conçu l'application web «
+                        Gamers » en utilisant l'outil Oracle APEX. Ce projet, réalisé en 14 heures, nous a permis de
+                        mobiliser des compétences spécifiques liées à la compétence <span
+                            class="page__text__gras">Réaliser</span>, notamment à travers
+                        l'élaboration de spécifications et le respect des contraintes techniques. Pour cette compétences
+                        j'ai choisi de vous présenter l'apprentissage critique <span class="page__text__gras">AC
+                            21.01</span> qui consiste a élaborer et
+                        implémenter les spécifications fonctionnelles et non fonctionnelles.
+                    </span>
+                    <h4 class="page__title ">CE 1.01 - En respectant les besoins décrits par le client</h4>
+                    <div class="besoin">
+                        <span class="page__text">
+                            Nous avons fait en sorte qu'un joueur ne puisse déposer d'avis que pour un
+                            jeu qu'il possède, et qu'il ne puisse pas poster plusieurs avis pour un même titre.
+                            Comme demandé, les mots de passe sont stockés sous forme hachée en SHA256
+                            pour protéger les utilisateurs.
+                            Nous avons assuré l'unicité des pseudos, des emails et des titres de jeux au sein de
+                            la base de données.
+                            Bien que la quasi-totalité des besoins ait été couverte, nous avons identifié que le
+                            filtrage des tournois par année reste une perspective d'évolution pour une version future.
+                            Notre projet a répondu à la totalité des besoins exprimer par le client.
+                        </span>
+                        <img src="images/besoin.png" alt="besoin" class="page__img">
+                    </div>
+                    <h4 class="page__title ">CE 1.06 - En choisissant les ressources techniques appropriées</h4>
+                    <div class="apex">
+                        <img src="images/oracle.png" alt="oracle" class="page__img">
+                        <span class="page__text">
+                            Nous avons choisi cette plateforme car elle simplifie le développement en nous
+                            permettant de nous concentrer sur la structure de la base de données plutôt que sur le
+                            développement front-end complexe.
+                        </span>
+
+                    </div>
+                    <div class="language">
+                        <img src="images/gitLab.png" alt="gitLab" class="page__img">
+                        <span class="page__text">
+                            Télio a utilisé SQL et PL/SQL pour gérer les requêtes de données et générer les
+                            graphiques du palmarès.
+                            Pour organiser notre travail d'équipe, nous avons utilisé un tableau
+                            Kanban et les outils de gitLab, ce qui nous a permis de suivre l'état d'avancement des
+                            tâches (Barre Menu, Note,
+                            Connexion, etc.) en temps réel.
+                            Répartition des rôles : Ronan s’est principalement concentré sur le front-end et les
+                            tableaux,
+                            tandis que Télio a géré le back-end, notamment la gestion des sessions par cookies.
+                        </span>
+                    </div>
+                    <span class="page__text">
+                        Pour conclure, je suis dans la maîtrise de cette compétence ainsi que des différents critères
+                        D'évaluation que je vous ai présentée. Je suis en maîtrise pour ces compétences car je suis
+                        dans la capacité de réaliser et implémenter les spécifications fonctionnelles et non
+                        Fonctionnelles pour un client de maniére autonomes. </span>
+
+                </div>
+
+                <div id="comp_S3.01">
+                    <h3 class="page__title">S3.01 Maps Industry</h3>
+                    <span class="page__text">
+                        J'ai choisi de vous présenter la compétence <span class="page__text__gras">Conduire</span>. Dans
+                        le cadre de notre projet de <span class="page__text__gras">SAE Maps Industry
+                            (S3.01)</span>, l'objectif de cette SAE était de réaliser un client
+                        léger (site web) et un
+                        client lourd (application bureau) permettant de planifier des itinéraires touristiques entre
+                        différentes villes.,
+                        <br>
+                        Pour ce faire, nous avons installé et configuré deux serveurs sur des machines virtuelles : l'un
+                        dédié à la base de données et l'autre à l'hébergement de l'API et du client léger. Pour cette
+                        compétences
+                        j'ai choisi de vous présenter l'apprentissage critique <span class="page__text__gras">AC
+                            25.04</span> qui consiste a définir et mettre en oeuvre une démarche de suivi de projet.
+                        Je vais donc vous expliquer comment et avec quel outil nous avons réalisé cela.
+                    </span>
+                    <h4 class="page__title ">CE 5.01 - En communiquant efficacement avec les différents acteur d'un
+                        projet</h4>
+                    <div class="besoin">
+                        <img src="images/documentation.png" alt="besoin" class="page__img">
+                        <div>
+                            <span class="page__text">
+                                La communication avec les différents acteurs a été possible grâce à un document fourni
+                                par
+                                Le client lors du lancement de la SAE. Grâce à celui-ci, nous avons pu réaliser des
+                                diagrammes
+                                De séquences, des scénarios d'utilisation et des diagrammes de classe. La communication
+                                est
+                                aussi possible avec d'autres
+                                Collègue développeur grâce à la documentation de l'API que nous avons réalisée.
+                            </span>
+                            <div>
+                                <img src="images/fonctionnalité.png" alt="besoin" class="page__img__small">
+                                <img src="images/sequences.png" alt="besoin" class="page__img__small">
+                            </div>
+                        </div>
+
+                    </div>
+                    <h4 class="page__title ">CE 5.04 - En adopant une démarche proactive, crétive et critique </h4>
+                    <div class="apex">
+                        <img src="images/label.png" alt="oracle" class="page__img__small">
+                        <span class="page__text">
+                            Lors de la réalisation de cette SAE nous avons utiliser les outils de l'application
+                            gitLab,
+                            cela comprend les labels, les issues et les milestones.
+                            <br>
+                            Pour piloter le projet Maps Industry, mon groupe et moi avons mis en place cinq
+                            Milestones afin de segmenter les différentes phases de développement. Ces milestones
+                            concernent le serveur API, le client
+                            lourd, le client web, la base de données (BDD) et la période de compte rendu. Cela nous
+                            permet de nous rendre compte de l'avancement du projet en temps réel. Cela nous permet
+                            de respecter nos
+                            échéances et d'ajuster notre charge de travail en fonction des priorités temporelles.
+                            <br>
+                            L'Issue Board nous permet de manière visuel de nous rendre compte des tâches à
+                            effectuer, organisé en
+                            colonnes "Open", "En cours" et "Closed". Ce tableau Kanban nous permet de suivre
+                            le cycle de vie de chaque fonctionnalité, du calcul d'itinéraire à la gestion des points
+                            d'intérêt (POI). Nous y retrouvons des tickets précis, comme le ticket #99 "Calculer un
+                            itinéraire" actuellement en cours de traitement, ou le ticket #101 concernant la «
+                            Suppression de comptes » déjà clôturé. Cette méthode garantit que chaque membre de
+                            l'équipe sait exactement sur quoi travailler, évitant ainsi les doublons.
+                            <br>
+                            Enfin, nous utilisons une stratégie de Labels très détaillée pour qualifier
+                            chaque tâche. Grâce à ces 16
+                            labels différents, nous pouvons filtrer nos 40 tickets ouverts et 57 tickets fermés pour
+                            obtenir une vision claire.
+                        </span>
+                        <img src="images/issues.png" alt="oracle" class="page__img">
+                        <img src="images/milestone.png" alt="oracle" class="page__img">
+
+                    </div>
+                    <span class="page__text">
+                        En conclusion, j'ai une expertise dans ce domaine. Je suis en mesure de
+                        transmettre mon savoir à une personne novice et je maîtrise parfaitement les outils que je vous
+                        ai présentés.
+                    </span>
+                </div>
+        </div>
+    </div>
+
+    <div id="imageModal" class="modal">
+        <span class="modal__close">&times;</span>
+        <img class="modal__content" id="imgFull">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        let lastScroll = 0;
+        const header = document.querySelector('.page__header');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll <= 0) {
+                header.classList.remove('page__header--hidden');
+                return;
+            }
+            if (currentScroll > lastScroll && !header.classList.contains('page__header--hidden')) {
+                header.classList.add('page__header--hidden');
+            } else if (currentScroll < lastScroll && header.classList.contains('page__header--hidden')) {
+                header.classList.remove('page__header--hidden');
+            }
+            lastScroll = currentScroll;
+        });
+
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("imgFull");
+        const closeBtn = document.querySelector(".modal__close");
+
+        const images = document.querySelectorAll('.page__img, .page__img__small');
+
+        images.forEach(img => {
+            img.onclick = function () {
+                modal.style.display = "flex";
+                modalImg.src = this.src;
+                document.body.style.overflow = "hidden";
+            }
+        });
+
+        function closeModal() {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+
+        closeBtn.onclick = closeModal;
+        modal.onclick = (e) => {
+            if (e.target === modal) closeModal();
+        }
+    </script>
+</body>
+
+</html>

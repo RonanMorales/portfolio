@@ -2,7 +2,7 @@ Pitch : perso + thématique 3 compétences : 1 A.C + 2 C.E + Preuve
 
 ////////
 
-S2.03 Synexio → Administrer AC 13.03 CE 3.01 CE 3.03
+S3.01 Maps Industry → Administrer AC 13.03 CE 3.01 CE 3.03
 
 S2.04 Gamers → Réaliser AC 21.01 CE 1.01 CE 1.06
 
@@ -15,3 +15,11 @@ Hand + soft skills
 
 Soutenance 5 min 
 1 compétences technique : 1 AC + 2 CE + Preuve + NAME 
+
+
+NAME
+
+Notion
+Acquis
+Maitrise
+Expertise
